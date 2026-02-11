@@ -1,0 +1,23 @@
+app:
+  title: "تحلیل احساسات فارسی"
+  description: "داشبورد تعاملی برای تحلیل احساسات نظرات فارسی با استفاده از مدل BERT"
+  rtl: true
+  max_text_length: 512
+  batch_chunk_size: 64
+
+model:
+  name: "HooshvareLab/bert-fa-base-uncased-sentiment-snappfood"
+  accuracy: 94.5
+  max_latency_ms: 100
+
+ui:
+  theme_primary_color: "#ff4b4b"
+  gradient_start: "#ff4b4b"
+  gradient_end: "#8e2de2"
+  neutral_color: "#fbbf24"
+  positive_color: "#22c55e"
+  negative_color: "#ef4444"
+
+logging:
+  level: "INFO"
+
